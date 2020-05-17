@@ -2,9 +2,10 @@ import React from 'react';
 
 const column = (props: {height: number}) => {
     const style = {
-        height: `${props.height}px`,
+        height: `calc(${props.height} * 100%)`,
         backgroundColor: 'black',
-        width: '10px',
+        width: '100%',
+        filter: `contrast(${props.height})`,
     }
 
     return (

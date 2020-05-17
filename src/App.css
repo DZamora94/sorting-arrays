@@ -13,14 +13,21 @@
   }
 }
 
-.App-header {
-  min-height: 90vh;
+.List-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.List-content {
+  min-height: 75vh;
+  min-width: 95vw;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  color: white;
 }
 
 .App-link {
