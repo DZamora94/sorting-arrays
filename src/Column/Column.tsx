@@ -9,7 +9,7 @@ const column = (props: {height: number}) => {
     }
 
     return (
-        <div style={style}></div>
+        <div className="column-bar" style={style}></div>
     );
 }
 
